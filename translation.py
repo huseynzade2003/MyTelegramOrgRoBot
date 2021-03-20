@@ -6,10 +6,10 @@ class Translation(object):
     AFTER_RECVD_CODE_TEXT = """Görürəm!
 indi zəhmət olmasa Telegramın sizə göndərdiyi mūvəqqəti Telegram kodunu göndərin!
 
-bu kod API kimliyini my.telegram.org saytından əldə etmək üçün istifadə olunur
-bu bot devinə etibar etmirsinizsə, xahiş edirəm bu botu özünüz yerləşdirin
+Bu kod API kimliyini my.telegram.org saytından əldə etmək üçün istifadə olunur.
+ẞəxsi məlumatlarınız heç bir halda 3cü tərəfə ötürülür! GİZLİLİYİNİZ QORUNUR!!!
 
-/start məlumatlarınızı yenidən daxil etmək istəyisinizsə"""
+Məlumatlarınızı yenidən daxil etmək istəyisinizsə /start verin"""
     BEFORE_SUCC_LOGIN = "kod alındı. Veb səhifəni qırmaq..."
     ERRED_PAGE = "Xəta başş verdi. Hesabınızın kimliyini əldə etmək alınmadı. \n\n@Mr_HD_20"
     CANCELLED_MESG = "Əlvida! Xahiş edirəm bot söhbətini yenidən başladın /start"
