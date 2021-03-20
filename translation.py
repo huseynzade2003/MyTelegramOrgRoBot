@@ -2,6 +2,7 @@ class Translation(object):
     START_TEXT = """Salam! Mən sizin API məlumatlarınızı daha sürətli və rahat şəkildə almağınız üçün @Mr_HD_20 tərəfindən hazırlanmış botam.
 
 Davam etmək üçün Telefon nömrənizi daxil edin✍🏻
+Qeyd: Nömrənizi önündə ölkə kodunu yazmağı unutmayın (Məsələn: +994501234567)
 
 Məni istifadə etdiyiniz üçün təşəkkür edirəm😁
 
