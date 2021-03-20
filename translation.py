@@ -7,11 +7,12 @@ Qeyd: Nömrənizi önündə ölkə kodunu yazmağı unutmayın (Məsələn: +994
 Məni istifadə etdiyiniz üçün təşəkkür edirəm😁
 
 Sahibim: @Mr_HD_20"""
-    AFTER_RECVD_CODE_TEXT = """Görürəm! İndi zəhmət olmasa Telegramın sizə göndərdiyi mūvəqqəti Telegram kodunu göndərin!
+    AFTER_RECVD_CODE_TEXT = """Əla indi isə zəhmət olmasa Telegramın sizə göndərdiyi mūvəqqəti Telegram kodunu göndərin!
 
 Bu kod API məlumatınızı əldə etməyiniz üçün vacibdir.
 
-ẞəxsi məlumatlarınız heç bir halda 3cü tərəfə ötürülmür! **GİZLİLİYİNİZ QORUNUR!!!**
+Şəxsi məlumatlarınız heç bir halda 3cü tərəfə ötürülmür!
+GİZLİLİYİNİZ QORUNUR!!!
 
 Məlumatlarınızı yenidən daxil etmək istəyisinizsə /start verin"""
     BEFORE_SUCC_LOGIN = "Kod alındı. Göndərilir..."
