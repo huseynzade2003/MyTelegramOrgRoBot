@@ -13,5 +13,5 @@ bu bot devinə etibar etmirsinizsə, xahiş edirəm bu botu özünüz yerləşdi
     BEFORE_SUCC_LOGIN = "kod alındı. Veb səhifəni qırmaq..."
     ERRED_PAGE = "Xəta başş verdi. Hesabınızın kimliyini əldə etmək alınmadı. \n\n@Mr_HD_20"
     CANCELLED_MESG = "Əlvida! Xahiş edirəm bot söhbətini yenidən başladın /start"
-    IN_VALID_CODE_PVDED = "bağışlayın, amma daxil etdiyiniz giriş kodu etibarlı bir Telegram Veb Giriş kodu kimi görünmür"
-    IN_VALID_PHNO_PVDED = "bağışlayın, amma daxil etdiyiniz telefon nömrəsi etibarlı bir telefon nömrəsi kimi görünmür"
+    IN_VALID_CODE_PVDED = "Xəta❌ Daxil etdiyiniz giriş kodu etibarlı bir Telegram Web Giriş kodu deyil!"
+    IN_VALID_PHNO_PVDED = "Xəta❌ Daxil etdiyiniz telefon nömrəsi etibarlı bir telefon nömrəsi deyil!"
