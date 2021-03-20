@@ -69,8 +69,8 @@ def extract_code_imn_ges(ptb_message):
 
 
 def get_phno_imn_ges(ptb_message):
-    """ gets the phone number (in international format),
-    from the input message"""
+    """ telefon nömrəsini alır (beynəlxalq formatda),
+    giriş mesajından"""
     LOGGER.info(ptb_message)
     my_telegram_ph_no = None
     if ptb_message.text is not None:
@@ -90,8 +90,8 @@ def get_phno_imn_ges(ptb_message):
 
 
 def compareFiles(first, second):
-    """ this code was copied
-    line for line from
+    """ bu kod kopyalandı
+    sətir üçün sətir
     https://github.com/DrKLO/Telegram/blob/7fb9f0b85621940e0a5ba977278f6f27fc323046/apkdiff.py#L4
     """
     while True:
