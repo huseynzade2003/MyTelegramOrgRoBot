@@ -1,22 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# Copyright (c) Shrimadhav U K
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-""" STEP TWO """
-
 import requests
 
 
@@ -25,8 +6,8 @@ def login_step_get_stel_cookie(
         tg_random_hash,
         tg_cloud_password
 ):
-    """Logins to my.telegram.org and returns the cookie,
-    or False in case of failure"""
+    """My.telegram.org saytına daxil olur və çərəzi qaytarır,
+    və ya səhv olduqda"""
     request_url = "https://my.telegram.org/auth/login"
     request_data = {
         "phone": input_phone_number,
