@@ -1,10 +1,8 @@
 class Translation(object):
-    START_TEXT = """Salam!
- zəhmət olmasa davam etmədən əvvəl TnC-ni oxuyun: https://t.me/SpEcHlDe/889
+    START_TEXT = """Salam! Davam etmək üçün Telefon nömrənizi daxil edin
  Məni istifadə etdiyiniz üçün təşəkkür edirəm 😬
- My.telegram.org saytından API-nizi almaq üçün Telegram Telefon nömrənizi daxil edin
 
-/start verib prosesə baßlşdan başlaya bilərsiniz"""
+/start verib prosesə yenidən başlaya bilərsiniz"""
     AFTER_RECVD_CODE_TEXT = """Görürəm!
 indi zəhmət olmasa Telegramın sizə göndərdiyi mūvəqqəti Telegram kodunu göndərin!
 
