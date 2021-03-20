@@ -39,7 +39,6 @@ LOGGER = logging.getLogger(__name__)
 INPUT_PHONE_NUMBER, INPUT_TG_CODE = range(2)
 GLOBAL_USERS_DICTIONARY = {}
 
-
 def start(update, context):
     """ Söhbət işləyicisi entry_point /start """
     update.message.reply_text(
@@ -75,7 +74,6 @@ def input_phone_number(update, context):
         parse_mode=ParseMode.HTML
     )
     return INPUT_TG_CODE
-
 
 def input_tg_code(update, context):
     """ ConversationHandler INPUT_TG_CODE state """
@@ -140,18 +138,15 @@ def input_tg_code(update, context):
         aes_mesg_i.edit_text(cookie_v)
     return ConversationHandler.END
 
-
 def cancel(update, context):
     """ ConversationHandler /cancel state """
     
     update.message.reply_text(Config.CANCELLED_MESG)
     return ConversationHandler.END
 
-
 def error(update, context):
-    """Log Errors caused by Updates."""
+    """Yeniləmələrin səbəb olduğu Giriş səhvləri."""
     LOGGER.warning("Update %s caused error %s", update, context.error)
-
 
 def go_heck_verification(update, context):
     """ yalnız içəri toz qoymaq üçün
@@ -178,12 +173,11 @@ def go_heck_verification(update, context):
 
 
 def main():
-    """ Initial Entry Point """
+    """ İlkin Giriş Nöqtəsi """
 
     updater = Updater(Config.TG_BOT_TOKEN)
 
     tg_bot_dis_patcher = updater.dispatcher
-
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
@@ -220,7 +214,6 @@ def main():
         updater.start_polling()
 
     updater.idle()
-
 
 if __name__ == "__main__":
     main()
