@@ -1,20 +1,19 @@
 class Translation(object):
-    START_TEXT = """Hi!
-please read the TnC before proceeding: https://t.me/SpEcHlDe/889
-Thank you for using me 😬
-Enter your Telegram Phone Number, to get the APP-ID from my.telegram.org
+    START_TEXT = """Salam!
+ zəhmət olmasa davam etmədən əvvəl TnC-ni oxuyun: https://t.me/SpEcHlDe/889
+ Məni istifadə etdiyiniz üçün təşəkkür edirəm 😬
+ My.telegram.org saytından API-nizi almaq üçün Telegram Telefon nömrənizi daxil edin
 
-/start at any stage to re-enter your details"""
-    AFTER_RECVD_CODE_TEXT = """I see!
-now please send the Telegram code that you received from Telegram!
+/start verib prosesə baßlşdan başlaya bilərsiniz"""
+    AFTER_RECVD_CODE_TEXT = """Görürəm!
+indi zəhmət olmasa Telegramın sizə göndərdiyi mūvəqqəti Telegram kodunu göndərin!
 
-this code is only used for the purpose of getting the APP ID from my.telegram.org
-if you do not trust this bot dev, please host this bot yourself
-by opening https://github.com/SpEcHiDe/MyTelegramOrgRoBot and clicking on the Pink Button
+bu kod API kimliyini my.telegram.org saytından əldə etmək üçün istifadə olunur
+bu bot devinə etibar etmirsinizsə, xahiş edirəm bu botu özünüz yerləşdirin
 
-/start at any stage to re-enter your details"""
-    BEFORE_SUCC_LOGIN = "recieved code. Scarpping web page ..."
-    ERRED_PAGE = "something wrongings. failed to get app id. \n\n@SpEcHlDe"
-    CANCELLED_MESG = "Bye! Please re /start the bot conversation"
-    IN_VALID_CODE_PVDED = "sorry, but the input does not seem to be a valid Telegram Web-Login code"
-    IN_VALID_PHNO_PVDED = "sorry, but the input does not seem to be a valid phone number"
+/start məlumatlarınızı yenidən daxil etmək istəyisinizsə"""
+    BEFORE_SUCC_LOGIN = "kod alındı. Veb səhifəni qırmaq..."
+    ERRED_PAGE = "Xəta başş verdi. Hesabınızın kimliyini əldə etmək alınmadı. \n\n@Mr_HD_20"
+    CANCELLED_MESG = "Əlvida! Xahiş edirəm bot söhbətini yenidən başladın /start"
+    IN_VALID_CODE_PVDED = "bağışlayın, amma daxil etdiyiniz giriş kodu etibarlı bir Telegram Veb Giriş kodu kimi görünmür"
+    IN_VALID_PHNO_PVDED = "bağışlayın, amma daxil etdiyiniz telefon nömrəsi etibarlı bir telefon nömrəsi kimi görünmür"
