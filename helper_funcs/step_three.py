@@ -33,11 +33,11 @@ def scarp_tg_existing_app(stel_token):
         test_dc = hi_inputs[-2].text.strip()
         production_dc = hi_inputs[-1].text.strip()
         re_dict_vals = {
-            "App Configuration": {
+            "Proses Tamamlandı⚡": {
                 "app_id": app_id,
                 "api_hash": api_hash
             },
-            "Available MTProto Servers": {
+            "Mövcud MTProto Servisləri ": {
                 "test_configuration": {
                     "IP": test_configuration,
                     "DC": test_dc
